@@ -1,0 +1,27 @@
+canvas{
+    border:1px solid black;
+}
+body{
+  background-color: black;
+}
+div{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 500px;
+}
+
+.div2{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: relative;
+    top: -100px;
+    left:-100px;
+ filter: blur(100px); 
+}
